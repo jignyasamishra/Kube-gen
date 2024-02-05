@@ -25,10 +25,10 @@ This will generate a Kubernetes deployment YAML file named `myapp-deployment.yam
 
 ## Flags
 
-- `-n, --name`: The name of the deployment. This is a required flag.
-- `-i, --image`: The Docker image to deploy. This is a required flag.
-- `-r, --replicas`: The number of replicas to deploy. Default is 1.
-- `-p, --port`: The port the container should listen on. Default is 80.
+- `-n, --name`: The name of the deployment.
+- `-i, --image`: The Docker image to deploy. 
+- `-r, --replicas`: The number of replicas to deploy. 
+- `-p, --port`: The port the container should listen on. 
 
 
 
